@@ -1,7 +1,7 @@
 body {
   background-color: rgb(223, 220, 236);
   font-family: sans-serif;
-  color: rgb(76, 71, 76);
+  color: #555;
   font-size: 18;  
   line-height: 2;
   size: 100%;
@@ -19,6 +19,8 @@ h1 {
 
 h2 {
   color: rgb(109, 168, 124);
+  margin-top: 1em;
+  padding-top: 1em;
 }
 
 a {
@@ -121,4 +123,45 @@ a {
 .card {
   margin: auto;
   width: 50%;
+}
+
+.cards {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+
+}
+
+.card-L {
+  width: 230px;
+  Height: 230px;
+  text-align: center;
+}
+
+.card-N {
+  width: 230px;
+  Height: 230px;
+  text-align: center;
+}
+
+span.green-button {
+  background-color: #2da04c;
+  padding: 1px 4px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 10px;
+  transform: translate(0, -4px);
+  -webkit-transform: translate(0, -4px);
+  margin: 0 4px;
+  border-radius: 4px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.shaka {
+  width: 100%;
+}
+
+.garden {
+  width: 100%;
 }
