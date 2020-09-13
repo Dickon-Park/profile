@@ -5,30 +5,119 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
    
   
-  <div class="container">
-    <body>
-      <div class="card"><h1>
-        Hello Im Dickon 🏝
-      </h1>
-    
-      <img class="img" src="images/345.jpg" alt="photo of me">
-    
-      <p>I love coding,🐱‍🏍 Windsurfing😁 and gaming! I hope to switch careers to web development👍 after the bootcamp!</p>
-      
-      <a class="button" href="https://www.lewagon.com"> Discover Le Wagon </a>
+  
+  <body>
+    <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(images/bali.jpg);">
+      <div class="container">
+        <h1>Junior Fullstack Web developer</h1>
+        <p><a class="btn btn-flat" href="www.linkedin.com/in/dickon-park"> Linkedin </a></p>
       </div>
+    </div>
+    <div class="card">
+      <div class="container" id="about">
+        <h2>My story</h2> 
 
-      <div class="card"><h2> Follow Me </h2>
-      <ul class="list">
-        <li><a href= "https://www.facebook.com/dickon.park/"><img src="images/facey.png" alt="facebook logo"></a></li>
-        <li><a href= "https://github.com/Dickon-Park"><img src="images/github.png" alt="github logo"></a></li>
-        <li><a href= "#"><img src="images/insta.jpg" alt="instagram logo"></a></li>
-      </ul></div>
+        <p>
+          Im originally from the Uk. (Newcastle upon tyne). Growing up in the northeast meant i had alot of jobs in different spheres.
+          
+          <br>
+          <br>
 
-    </body>
-  </div>
+          I am now a 31-year old windsurf instructor turned warehouse manager, turned junior full-stack web developer.
+          I've just graduated from Le Wagon's 24-week coding bootcamp in Brussels and plan to deep dive into the world of development. 
+          
+          <br>
+          <br>
+
+          People would describe me as hard working, social, dynamic and reliable.
+        </p>
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="card">
+    <div class="container" id="projects">
+      <h2>Projects</h2>
+      <h3>Shaka</h3>
+
+      <h3>Garden Rental</h3>
+
+    </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="card">
+    <div class="container" id="education">
+      <h2>Education</h2>
+
+      <p> Le Wagon</p>
+      <p> Newcastle College</p>
+
+    </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="card">
+    <div class="container" id="skills">
+      <h2> My technical skills</h2>
+      <h3> Web development</h3>
+
+
+    </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="card">
+    <div class="container">
+    <div class="contact">
+
+      <h2 class="title">Get in Touch</h2>
+
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/dickon-park/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+          <i class="fas fa-envelope"></i>
+        </div>
+
+      <div class="contact-form">
+      <form class="new_contact" id="new_contact" action="/contacts" accept-charset="UTF-8" data-remote="true" method="post">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <div class="form-group">
+              <input placeholder="name" class="form-control" type="text" name="contact[name]" id="contact_name" />
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <div class="form-group ">
+              <input placeholder="email" class="form-control" type="text" name="contact[email]" id="contact_email" />
+            </div>
+          </div>
+        </div>
+        <div class="form-group ">
+          <textarea placeholder="message" class="form-control" name="contact[message]" id="contact_message"></textarea>
+        </div>
+        <div class="actions">
+          <input type="submit" name="commit" value="SEND" class="ren-btn" data-disable-with="SEND" />
+        </div>
+      </form>    
+      </div>
+    </div>
+    </div>
+    </div>
+  </body>
 
 </html>

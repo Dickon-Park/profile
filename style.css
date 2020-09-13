@@ -4,6 +4,9 @@ body {
   color: rgb(76, 71, 76);
   font-size: 18;  
   line-height: 2;
+  size: 100%;
+  margin: 0 auto;
+  
 }
 
 a:hover {
@@ -24,7 +27,7 @@ a {
 
 .container {
   width: 800px;
-  margin: 40px auto;
+  margin: auto;
 }
 
 .card {
@@ -74,4 +77,48 @@ a {
   .container {
     width: 300px;
   }
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #1EDD88;
+  transition: background 0.3s ease;
+}
+
+.btn-flat:hover {
+  background: #1BCB7F;
+  color: white;
+}
+
+.contact {
+  box-shadow: black;
+}
+
+.card {
+  margin: auto;
+  width: 50%;
 }
