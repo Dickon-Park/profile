@@ -165,3 +165,22 @@ span.green-button {
 .garden {
   width: 100%;
 }
+
+.card-trip .card-trip-infos {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.card-trip {
+  position:relative;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+p.text {
+  color: white;
+
+}
